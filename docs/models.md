@@ -1,0 +1,10 @@
+- api-comm-injector - for API flow, process data from API call then publish to sns
+- comm-event-processor - for Claims flow
+- sqs-comm-injector - process data from comm-event-processor then publish to sns
+- comm-predictor
+  - determines if need to be processed realtime / delayed (scheduled) / pega / drop (do nothing)
+  - Legacy route - isActive === false && isLegacyRouteDisabled === true
+- comm-enricher - enrich data using the IDs provided
+- comm-integrator - process data for sending to AMP (SMS / Email), ATOM (Snail mail) or BridgeTree (Snail mail)
+- batch-capture / batch-processor - if comm-predictor process it as delayed
+- comm-sqs-handler - handles sqs from external applications like Athena, AppointmentNotification, etc.

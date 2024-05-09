@@ -1,0 +1,7 @@
+- Horizon Communication
+- Wolfpack (Cloud API)
+- Horizon Client Config
+- Horizon Alpha
+- Horizon Web
+- Horizon Sherlock
+- FRM (Fraud/Risk Management)
