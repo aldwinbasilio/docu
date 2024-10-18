@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.7.17">
   <diagram name="Page-1" id="XbMD53U76tJ1zUKPWRuO">
-    <mxGraphModel dx="2287" dy="1328" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="950" math="0" shadow="0">
+    <mxGraphModel dx="1190" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="950" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,12 +82,13 @@
         <mxCell id="VzB-VSZ2h22A9RF2xHsn-40" value="/data-svc/v1/get-appointments" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.endpoint;" parent="1" vertex="1">
           <mxGeometry x="332" y="335.5" width="78" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="VzB-VSZ2h22A9RF2xHsn-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VzB-VSZ2h22A9RF2xHsn-47" target="VzB-VSZ2h22A9RF2xHsn-5" edge="1">
+        <mxCell id="VzB-VSZ2h22A9RF2xHsn-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;" parent="1" source="VzB-VSZ2h22A9RF2xHsn-47" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="762" y="485.5" as="targetPoint" />
+            <mxPoint x="762" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="712" y="154.5" />
-              <mxPoint x="712" y="521.5" />
+              <mxPoint x="710" y="155" />
+              <mxPoint x="710" y="490" />
+              <mxPoint x="762" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -97,22 +98,24 @@
         <mxCell id="VzB-VSZ2h22A9RF2xHsn-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="581.9999999999998" y="264.5" as="sourcePoint" />
-            <mxPoint x="762" y="521.5" as="targetPoint" />
+            <mxPoint x="762" y="500" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="703" y="264.5" />
-              <mxPoint x="703" y="521.5" />
+              <mxPoint x="700" y="265" />
+              <mxPoint x="700" y="500" />
+              <mxPoint x="762" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VzB-VSZ2h22A9RF2xHsn-48" value="comm-enrich" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
           <mxGeometry x="522" y="228.5" width="69" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="VzB-VSZ2h22A9RF2xHsn-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VzB-VSZ2h22A9RF2xHsn-49" target="VzB-VSZ2h22A9RF2xHsn-5" edge="1">
+        <mxCell id="VzB-VSZ2h22A9RF2xHsn-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=classic;startFill=1;" parent="1" source="VzB-VSZ2h22A9RF2xHsn-49" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="762" y="485.5" as="targetPoint" />
+            <mxPoint x="762" y="510" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="692" y="374.5" />
-              <mxPoint x="692" y="521.5" />
+              <mxPoint x="692" y="375" />
+              <mxPoint x="692" y="510" />
+              <mxPoint x="760" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -147,6 +150,12 @@
           <mxGeometry x="1412" y="600" width="115.63" height="111" as="geometry" />
         </mxCell>
         <mxCell id="VzB-VSZ2h22A9RF2xHsn-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VzB-VSZ2h22A9RF2xHsn-65" target="VzB-VSZ2h22A9RF2xHsn-70" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp-54UEF0uEkIOxDuec-1" value="MoXy API" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="1412" y="303.5" width="115.63" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp-54UEF0uEkIOxDuec-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="VzB-VSZ2h22A9RF2xHsn-65" target="VKp-54UEF0uEkIOxDuec-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
