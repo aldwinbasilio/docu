@@ -1,2 +1,6 @@
 .vscode/settings.json
 .DS_Store
+**/config.json
+.mcp.json
+**/output
+*.env

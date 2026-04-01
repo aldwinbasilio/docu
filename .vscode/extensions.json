@@ -1,6 +1,8 @@
 {
   "recommendations": [
     "hediet.vscode-drawio",
-    "swellaby.workspace-config-plus"
+    "swellaby.workspace-config-plus",
+    "anthropic.claude-code",
+    "ms-python.python"
   ]
 }

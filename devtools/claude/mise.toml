@@ -1,0 +1,19 @@
+[tools]
+python = "latest"
+
+[env]
+GOOGLE_APPLICATION_CREDENTIALS = "/Users/aldwinpaul.basilio/.config/gcloud/application_default_credentials.json"
+CLAUDE_CODE_USE_VERTEX = "1"
+CLOUD_ML_REGION = "global"
+ANTHROPIC_VERTEX_PROJECT_ID = "gen-ai-preview"
+ANTHROPIC_DEFAULT_OPUS_MODEL = "claude-opus-4-6"
+ANTHROPIC_DEFAULT_SONNET_MODEL = "claude-sonnet-4-6"
+ANTHROPIC_DEFAULT_HAIKU_MODEL = "claude-haiku-4-5@20251001"
+ANTHROPIC_MODEL = "claude-opus-4-6"
+ANTHROPIC_SMALL_FAST_MODEL = "claude-haiku-4-5@20251001"
+NODE_EXTRA_CA_CERTS = "/Users/aldwinpaul.basilio/rootca.crt"
+CLAUDE_CODE_SHELL = "/opt/homebrew/bin/fish"
+
+[tasks.mcp-gateway-token]
+description = "Refresh MCP Gateway token"
+run = "./scripts/mcp-gateway-token.sh"

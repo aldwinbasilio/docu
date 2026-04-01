@@ -1,0 +1,54 @@
+{
+  "mcpServers": {
+    "opensearch-prod": {
+      "command": "uvx",
+      "args": ["opensearch-mcp-server-py"],
+      "env": {
+        "OPENSEARCH_URL": "https://pse-prd.os.pselogging.prd.aws.asurion.net",
+        "OPENSEARCH_SSL_VERIFY": "false",
+        "OPENSEARCH_USERNAME": "<placeholder>",
+        "OPENSEARCH_PASSWORD": "<placeholder>"
+      }
+    },
+    "dynatrace": {
+      "type": "http",
+      "url": "https://mcp-prod-gateway.mcp.prd.aws.asurion.net/dynatrace/mcp",
+      "headers": {
+        "Authorization": "<placeholder>",
+        "X-MCP-ENV-DT-ENVIRONMENT": "https://aem24143.apps.dynatrace.com",
+        "X-MCP-ENV-DT-PLATFORM-TOKEN": "<placeholder>"
+      }
+    },
+    "jira": {
+      "type": "http",
+      "url": "https://mcp-prod-gateway.mcp.prd.aws.asurion.net/jira/mcp",
+      "headers": {
+        "Authorization": "<placeholder>",
+        "X-MCP-ENV-JIRA-BASE-URL": "https://asurion.atlassian.net",
+        "X-MCP-ENV-JIRA-USERNAME": "<placeholder>",
+        "X-MCP-ENV-JIRA-API-TOKEN": "<placeholder>"
+      }
+    },
+    "github": {
+      "type": "http",
+      "url": "https://mcp-prod-gateway.mcp.prd.aws.asurion.net/github/mcp",
+      "headers": {
+        "Authorization": "<placeholder>",
+        "X-MCP-ENV-GITHUB-PERSONAL-ACCESS-TOKEN": "<placeholder>",
+        "X-MCP-ENV-GITHUB-REPOSITORY": "asurion-private/hcom-fw-severless"
+      }
+    },
+    "awslabs.cloudwatch-mcp-server": {
+      "autoApprove": [],
+      "disabled": false,
+      "command": "uvx",
+      "args": ["awslabs.cloudwatch-mcp-server@latest"],
+      "env": {
+        "AWS_PROFILE": "asurion-mobility-ac-nonprod.dev",
+        "AWS_REGION": "us-east-1",
+        "FASTMCP_LOG_LEVEL": "ERROR"
+      },
+      "transportType": "stdio"
+    }
+  }
+}
